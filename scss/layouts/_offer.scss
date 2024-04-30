@@ -1,0 +1,60 @@
+.offer-section__title {
+    font-family: "DMSans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    margin-bottom: 117px;
+}
+
+.offer-section__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-secction__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 75px;
+    padding-right: 17px;
+    padding-left: 62px;
+    padding-bottom: 108px;
+    box-shadow: 0px 4px 22px 0px #5F5F5F0D;
+}
+
+.offer-section__item-heading {
+    font-family: "DMSans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    text-align: center;
+}
+
+.offer-section__item-desc {
+    font-family: "DMSans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.offer-section__desc-wrapper {
+    width: 277px;
+}
+
+.offer-section__img {
+    margin-top: 25px;
+}
+
+.offer-section__img-wrapper {
+    position: absolute;
+    top: -45px;
+    left: 140px;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #fff;
+}

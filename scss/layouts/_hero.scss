@@ -1,3 +1,50 @@
+
+.hero-section {
+    padding-bottom: 170px;
+    background-image: url("/assets/images/hero-image.png");
+    background-repeat: no-repeat;
+    background-position-x: 825px;
+}
+
+.hero-section__title {
+    font-family: "Rubik";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 85.32px;
+    margin-top: 0;
+}
+
+.hero-section__title-wrapper {
+    width: 536px;
+    margin-left: 0;
+}
+
+.hero-section__desc {
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.hero-section__desc-wrapper {
+    width: 536px;
+    margin-left: 0;
+}
+
+.hero-section__main-link {
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    padding: 14px 28px;
+    margin-right: auto;
+    text-decoration-line: none;
+    color: #fff;
+    background-color: #F35F2F;
+}
+=======
 @use "../abstracts/variables" as var;
 @use "../abstracts/mixins" as mix;
 
@@ -134,3 +181,4 @@
     padding-inline:12px;
     background-color: #fafafafa;
 }
+
