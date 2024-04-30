@@ -331,16 +331,141 @@ img {
 
 body {
   font-family: "Rubik", "Arial", sans-serif;
+
+  background-color: #fdfdfd;
+}
+
+.container {
+  max-width: 1220px;
+=======
   background-color: #f7f5f3;
 }
 
 .container {
   max-width: 1224px;
+
   width: 100%;
-  padding-inline: 24px;
+  padding-inline: 20px;
   margin-inline: auto;
 }
 
+
+.site-creative__title {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52.08px;
+  text-align: center;
+}
+.site-creative__link {
+  padding-block: 13px;
+  padding-inline: 26px;
+  border-radius: 5px;
+  opacity: 85%;
+  text-decoration: none;
+  background: linear-gradient(2.79deg, #f35f2f -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.04px;
+  margin-top: 31px;
+  font-family: sans-serif;
+  transition: all 0.4s ease;
+}
+.site-creative__link:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.site-creative .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 29px;
+}
+.site-creative .wrapper__business-img {
+  width: 100%;
+  margin: 0;
+}
+.site-creative .wrapper__box {
+  width: 392px;
+  margin: 0;
+  text-align: center;
+}
+.site-creative .wrapper__title {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.04px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  box-shadow: 0px 7px 23px -15px rgba(0, 0, 0, 0.15);
+}
+
+.site-team__inner {
+  margin-top: 120px;
+  text-align: center;
+}
+.site-team__title {
+  margin-top: 0;
+  margin-bottom: 44px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52.08px;
+}
+.site-team__meet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 36px;
+       column-gap: 36px;
+}
+.site-team__box {
+  width: 267px;
+  padding-inline: 13px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeff1;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 65px -38px rgba(0, 0, 0, 0.09);
+}
+.site-team__img {
+  width: 100%;
+  margin: 0;
+}
+.site-team__name {
+  margin-top: 18px;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.site-team__lvl {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #999999;
+}
+.site-team__logos {
+  width: 132px;
+  display: flex;
+  margin-top: 17px;
+}
+.site-team__logo {
+  margin: 0;
+}
+
+.meet-box {
+  padding-top: 3px;
+  padding-inline: 12px;
+  background-color: rgba(250, 250, 250, 0.9803921569);
+=======
 .contact {
   margin-top: 120px;
   margin-bottom: 93px;
