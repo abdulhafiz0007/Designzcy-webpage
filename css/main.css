@@ -427,9 +427,113 @@ body {
   padding-block: 13px;
   padding-inline: 23px;
   border: transparent;
-  background-color: #f35f2f;
+  background-color: #f68560;
   color: #ffffff;
   border-radius: 5px;
   font-size: 20px;
   line-height: 27px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer__ul {
+  list-style: none;
+}
+.footer__ul li {
+  color: #646464;
+  font-size: 14px;
+  line-height: 14px;
+}
+.footer__ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer__ul li:first-child {
+  color: #323232;
+  font-weight: 700;
+}
+.footer__logo {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer__details-title {
+  width: 320px;
+  color: #646464;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__icons img {
+  margin: 0;
+}
+
+.footer__contact h4 {
+  margin: 0;
+  color: #323232;
+  font-weight: 700;
+}
+.footer__contact p {
+  color: #646464;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-form input {
+  width: 290px;
+  padding-block: 12px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+}
+.footer-form input::-moz-placeholder {
+  color: rgba(117, 117, 117, 0.6509803922);
+  font-size: 14px;
+}
+.footer-form input::placeholder {
+  color: rgba(117, 117, 117, 0.6509803922);
+  font-size: 14px;
+}
+.footer-form button {
+  padding-block: 12px;
+  padding-inline: 117px;
+  border: transparent;
+  background-color: #f68560;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.footer-bottom__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom__inner p {
+  display: block;
+  color: #646464;
+  font-size: 14px;
+  line-height: 25px;
+}
+.footer-bottom__inner ul {
+  list-style: none;
+  display: flex;
+  gap: 54px;
+}
+.footer-bottom__inner ul li {
+  color: #646464;
+  font-size: 14px;
+  line-height: 14px;
 }/*# sourceMappingURL=main.css.map */
