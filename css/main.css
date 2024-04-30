@@ -335,7 +335,7 @@ body {
 }
 
 .container {
-  max-width: 1218px;
+  max-width: 1224px;
   width: 100%;
   padding-inline: 24px;
   margin-inline: auto;
@@ -526,11 +526,13 @@ body {
   color: #646464;
   font-size: 14px;
   line-height: 25px;
+  margin: 0;
 }
 .footer-bottom__inner ul {
   list-style: none;
   display: flex;
   gap: 54px;
+  margin: 0;
 }
 .footer-bottom__inner ul li {
   color: #646464;
