@@ -331,15 +331,24 @@ img {
 
 body {
   font-family: "Rubik", "Arial", sans-serif;
+
   background-color: #fdfdfd;
 }
 
 .container {
   max-width: 1220px;
+=======
+  background-color: #f7f5f3;
+}
+
+.container {
+  max-width: 1224px;
+
   width: 100%;
   padding-inline: 20px;
   margin-inline: auto;
 }
+
 
 .site-creative__title {
   margin: 0;
@@ -456,4 +465,202 @@ body {
   padding-top: 3px;
   padding-inline: 12px;
   background-color: rgba(250, 250, 250, 0.9803921569);
+=======
+.contact {
+  margin-top: 120px;
+  margin-bottom: 93px;
+}
+.contact__title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+  line-height: 53px;
+  color: #3d3d3f;
+}
+.contact__form {
+  width: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.contact__inputs {
+  max-width: 720px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+  row-gap: 27px;
+}
+.contact__input label {
+  color: #3d3d3f;
+  font-size: 18px;
+  line-height: 30px;
+}
+.contact__input input {
+  padding-block: 19px;
+  padding-inline: 12px;
+  width: 343px;
+  border: transparent;
+  outline: none;
+}
+.contact__input input::-moz-placeholder {
+  color: #515155;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+.contact__input input::placeholder {
+  color: #515155;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+.contact__textarea {
+  width: 770px;
+  margin-top: 34px;
+}
+.contact__textarea label {
+  display: block;
+  color: #3d3d3f;
+  font-size: 18px;
+  line-height: 35px;
+}
+.contact__textarea textarea {
+  padding-block: 19px;
+  padding-inline: 18px;
+  border: transparent;
+  outline: none;
+  width: 730px;
+  resize: none;
+}
+.contact__textarea textarea::-moz-placeholder {
+  color: #515155;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+.contact__textarea textarea::placeholder {
+  color: #515155;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+.contact__btn-submit {
+  margin-top: 51px;
+  padding-block: 13px;
+  padding-inline: 23px;
+  border: transparent;
+  background-color: #f68560;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer__ul {
+  list-style: none;
+}
+.footer__ul li {
+  color: #646464;
+  font-size: 14px;
+  line-height: 14px;
+}
+.footer__ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer__ul li:first-child {
+  color: #323232;
+  font-weight: 700;
+}
+.footer__logo {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer__details-title {
+  width: 320px;
+  color: #646464;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__icons img {
+  margin: 0;
+}
+
+.footer__contact h4 {
+  margin: 0;
+  color: #323232;
+  font-weight: 700;
+}
+.footer__contact p {
+  color: #646464;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-form input {
+  width: 290px;
+  padding-block: 12px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+}
+.footer-form input::-moz-placeholder {
+  color: rgba(117, 117, 117, 0.6509803922);
+  font-size: 14px;
+}
+.footer-form input::placeholder {
+  color: rgba(117, 117, 117, 0.6509803922);
+  font-size: 14px;
+}
+.footer-form button {
+  padding-block: 12px;
+  padding-inline: 117px;
+  border: transparent;
+  background-color: #f68560;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.footer-bottom__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom__inner p {
+  display: block;
+  color: #646464;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0;
+}
+.footer-bottom__inner ul {
+  list-style: none;
+  display: flex;
+  gap: 54px;
+  margin: 0;
+}
+.footer-bottom__inner ul li {
+  color: #646464;
+  font-size: 14px;
+  line-height: 14px;
 }/*# sourceMappingURL=main.css.map */
